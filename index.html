@@ -25,6 +25,18 @@
   <!-- Responsive Style -->
   <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 
+
+  <style>
+    @keyframes blink {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    .blink {
+      animation: blink 1s infinite;
+    }
+  </style>
+
 </head>
 
 <body>
@@ -155,24 +167,26 @@
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <div class="img-thumb wow fadeInLeft" data-wow-delay="0.3s">
             <img class="img-fluid" src="https://avatars.githubusercontent.com/u/58402504?v=4" alt="" srcset="">
-            <!-- <img class="img-fluid" src="assets/img/about/about-1.jpg" alt=""> -->
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
-            <h3>Hello !</h3>
-            <p>I’m Robin Roy. I am passionate about Web Technology & cyber security.
+            <h3>Hello!<span class="blink"> 👋</span></h3>
+            <p style="font-size: larger;">
+              "My name is <b><span style="color:rgb(236, 20, 207);">Robin Roy</span> </b>, and I currently work as a DevOps engineer at
+              <b><span style="color:rgb(204, 89, 12);">Amdocs R&Ds</span> </b> . 
+              I have a great passion for <b><span style="color:rgb(45, 172, 6);">Malware Development</span> </b> & <b><span style="color:rgb(14, 227, 235);">Cyber-Security</span> </b>. Architectural design and smooth integration, 
+              along with a natural aptitude for handling challenging issues, are my strong points. My ability to work with 
+              cutting-edge technology allows me to lead the development and successful introduction of new projects. 
+              I am proficient in converting business requirements into accurate technical fixes."
 
-              I'm Strong in Arc-design and integration with intuitive problem-solving skills. Proficient in JAVA,
-              PYTHON,
-              JAVASCRIPT,Bash and SQL. Passionate about implementing and launching new projects. Ability to translate
-              business requirements into technical solutions. Looking to start the career as an entry-level software
-              engineer with a reputed firm driven by technology.</p>
+
+            </p>
             <div class="about-profile">
               <ul class="admin-profile">
                 <li><span class="pro-title"> Name </span> <span class="pro-detail">Robin Sunita Roy</span></li>
                 <!-- <li><span class="pro-title"> Age </span> <span class="pro-detail">21 Years</span></li> -->
-                <li><span class="pro-title"> Experience </span> <span class="pro-detail">0.5Years</span></li>
+                <li><span class="pro-title"> Experience </span> <span class="pro-detail">1 Years</span></li>
                 <li><span class="pro-title"> Country </span> <span class="pro-detail">INDIA</span></li>
                 <li><span class="pro-title"> Location </span> <span class="pro-detail">Patna,Bihar</span></li>
                 <li><span class="pro-title"> e-mail </span> <span class="pro-detail">robin113x@gmail.com</span></li>
@@ -453,7 +467,7 @@
                       <i class="icon-link"></i>
                     </a>
                   </div>
-                </div>
+                </div>dak green
               </div>
             </div>
           </div>
